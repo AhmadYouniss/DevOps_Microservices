@@ -25,7 +25,6 @@
 -  prediction value part added to app.py
 -  The project passes linting .
 
-## Microservices 4th Project
-[![MohamedIbrahim9](https://circleci.com/gh/MohamedIbrahim9/Microservice-Kubernetes.svg?style=svg)](https://circleci.com/gh/MohamedIbrahim9/Microservice-Kubernetes)
-
-**Project has successfully passed circlerci test as shown in the badge**
+## Microservices 4th Project CircleCi badge
+[![ahmadyouniss](https://circleci.com/gh/ahmadyouniss/Microservice-Kubernetes.svg?style=svg)](https://circleci.com/gh/ahmadyouniss/Microservice-Kubernetes)
+[![ahmadyouniss](https://circleci.com/gh/ahmadyouniss/DevOps_Microservices.svg?style=svg)](https://circleci.com/gh/ahmadyouniss/DevOps_Microservices)
