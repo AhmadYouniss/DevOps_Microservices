@@ -26,5 +26,4 @@
 -  The project passes linting .
 
 ## Microservices 4th Project CircleCi badge
-[![ahmadyouniss](https://circleci.com/gh/ahmadyouniss/Microservice-Kubernetes.svg?style=svg)](https://circleci.com/gh/ahmadyouniss/Microservice-Kubernetes)
 [![ahmadyouniss](https://circleci.com/gh/ahmadyouniss/DevOps_Microservices.svg?style=svg)](https://circleci.com/gh/ahmadyouniss/DevOps_Microservices)
