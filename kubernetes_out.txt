@@ -1,8 +1,32 @@
-<pod/my-python-app-66fad6da28-m895k created
+«
+pod/my-python-app-66fad6da28-m895k created
 Waiting for pod to be available ...
 NAME                             READY   STATUS    RESTARTS   AGE
 my-python-app-66fad6da28-m895k   1/1     Running   0          2m24s
 Forwarding from 127.0.0.1:8000 -> 80
 Forwarding from [::1]:8000 -> 80
 Handling connection for 8000
->
+
+
+
+#Log from prediction:
+[2020-10-09 09:40:54,565] INFO in app: JSON payload: 
+{'CHAS': {'0': 0}, 'RM': {'0': 6.575}, 'TAX': {'0': 296.0}, 'PTRATIO': {'0': 15.3}, 'B': {'0': 396.9}, 'LSTAT': {'0': 4.98}}
+[2020-10-09 09:40:54,598] INFO in app: Inference payload DataFrame: 
+   CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+[2020-10-09 09:40:54,598] INFO in app: Scaling Payload:    CHAS     RM    TAX  PTRATIO      B  LSTAT
+0     0  6.575  296.0     15.3  396.9   4.98
+
+[2020-10-09 09:40:54,624] INFO in app: Output prediction: 
+[20.35373177134412]
+172.17.0.1 - - [2020-10-09 09:40:54] "POST /predict HTTP/1.1" 200 -
+
+
+# The http response:
+Port: 8000
+{
+  "prediction": [
+    20.35373177134412
+  ]
+»
