@@ -1,0 +1,8 @@
+<pod/my-python-app-66fad6da28-m895k created
+Waiting for pod to be available ...
+NAME                             READY   STATUS    RESTARTS   AGE
+my-python-app-66fad6da28-m895k   1/1     Running   0          2m24s
+Forwarding from 127.0.0.1:8000 -> 80
+Forwarding from [::1]:8000 -> 80
+Handling connection for 8000
+>
